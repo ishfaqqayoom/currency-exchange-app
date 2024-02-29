@@ -122,17 +122,15 @@ export default function Main() {
           <div style={{ marginBottom: "5px", fontSize: "14px" }}>
             Add Currency
             {columnHeading.length < 7 && (
-              <span
-                style={{
+          
+                
+            <i className="fa fa-plus-square" aria-hidden="true"    style={{
                   color: "green",
-                  fontSize: "20px",
+                  fontSize: "24px",
                   marginLeft: "10px",
                   cursor: "pointer",
                 }}
-                onClick={addNewCurrency}
-              >
-                +
-              </span>
+                onClick={addNewCurrency}  ></i>
             )}
           </div>
 
